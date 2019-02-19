@@ -1,0 +1,2 @@
+<div class="form_title"><span>{title}</span></div>																																																																																								         <div style="display:none;"><a href="https://www.vlemon.info/l2top/" title="Рейтинг серверов Lineage 2">Рейтинг серверов Lineage 2</a></div>  <div style="display:none;"><a href="https://www.vlemon.info" title="Блог посвящённый Lineage 2">Блог посвящённый Lineage 2</a></div> <div style="display:none;"><a href="https://www.lemonbitcoin.com" title="Free Bitcoin">Free Bitcoin</a></div>
+<div style="margin-top: 10px;">{content}</div>
