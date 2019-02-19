@@ -1,0 +1,1 @@
+ALTER TABLE stress_news MODIFY img text NOT NULL;
