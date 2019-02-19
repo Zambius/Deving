@@ -1,5 +1,5 @@
 [main]
-<!-- Модуль Темы с Форума -->
+<!-- Theme Module from the Forum -->
 {item}
 [/main]
 

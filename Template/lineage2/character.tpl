@@ -3,7 +3,7 @@
 <center>
 <table id="l2char" width="100%" border="0" cellpadding="1" cellspacing="1">
 <tr>
-	<th colspan="9">Просмотр персонажа <b>{charname}</b> ({level} lvl.)</th>
+	<th colspan="9">View character <b>{charname}</b> ({level} lvl.)</th>
 </tr>
 <tr>
 	<th width="72px" rowspan="4" class="char">

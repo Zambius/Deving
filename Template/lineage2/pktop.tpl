@@ -1,5 +1,5 @@
 [main]
-<!-- Модуль PvP Top -->
+<!-- PvP Top Module -->
 <table>
     {item}
 </table>

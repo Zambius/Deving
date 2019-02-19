@@ -1,27 +1,27 @@
-Уважаемый {login}, <br />
-Это письмо отправлено с сайта {host} <br />
+Hello {login}, <br />
+This email is sent from the site. {host} <br />
  <br />
-Вы получили это письмо, так как этот e-mail адрес был использован при регистрации на сайте. Если Вы не регистрировались на этом сайте, просто проигнорируйте это письмо и удалите его. Вы больше не получите такого письма. <br />
- <br />
------------------------------------------------- <br />
-Ваш логин и пароль на сайте: <br />
------------------------------------------------- <br />
- <br />
-Логин: {login} <br />
-Пароль: {password} <br />
+You have received this email, as this e-mail address was used during registration on the site. If you have not registered on this site, simply ignore this letter and delete it. You will no longer receive such a letter. <br />
  <br />
 ------------------------------------------------ <br />
-Инструкция по активации <br />
+Your login and password on the site: <br />
 ------------------------------------------------ <br />
  <br />
-Благодарим Вас за регистрацию. <br />
-Мы требуем от Вас подтверждения Вашей регистрации, для проверки того, что введённый Вами e-mail адрес - реальный. Это требуется для защиты от нежелательных злоупотреблений и спама. <br />
+Login: {login} <br />
+Password: {password} <br />
  <br />
-Для активации Вашего аккаунта, зайдите по следующей ссылке: <br />
+------------------------------------------------ <br />
+Activation Instructions <br />
+------------------------------------------------ <br />
+ <br />
+Thank you for registering. <br />
+We require you to confirm your registration in order to verify that the e-mail address you entered is real. This is required to protect against unwanted abuse and spam. <br />
+ <br />
+To activate your account, go to the following link: <br />
  <br />
 {link} <br />
  <br />
-Если и при этих действиях ничего не получилось, возможно Ваш аккаунт удалён. В этом случае, обратитесь к Администратору, для разрешения проблемы. <br />
+If nothing happened with these actions, your account may be deleted. In this case, contact your Administrator to resolve the problem. <br />
  <br />
-С уважением, <br />
-Администрация {host} .
+best regards, <br />
+Administrator {host} .

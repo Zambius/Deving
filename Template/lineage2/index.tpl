@@ -51,12 +51,12 @@
     <section>
         <nav class="menu">
             <div class="inner-box">
-                <a class="float" href="/">Главная</a>
-                <a class="float" href="/index.php?f=register">Регистрация</a>
-                <a class="float" href="/">Файлы</a>
-                <a class="float" href="/index.php?f=stat">Статистика</a>
-                <a class="float" href="/">Пожертвование</a>
-                <a class="float" href="/">Форум</a>
+                <a class="float" href="/">HOME</a>
+                <a class="float" href="/index.php?f=register">REGISTER</a>
+                <a class="float" href="/">FILES</a>
+                <a class="float" href="/index.php?f=stat">STATISTICS</a>
+                <a class="float" href="/">DONATION</a>
+                <a class="float" href="/">FORUM</a>
             </div>
         </nav>
     </section>
@@ -69,13 +69,13 @@
             <article class="sidebar">
                 <a class="cp wobble-horizontal" href="/index.php?f=cp"></a>
                 <div class="forum">
-                    <div class="bar-title clearfix">Темы с форума</div>
-					<center><a href="https://www.vlemon.info" target="_blank" title="Блог посвящённый Lineage 2"><img src="https://www.vlemon.info/button.gif" alt="Блог посвящённый Lineage 2" /></a></center>
+                    <div class="bar-title clearfix">Topics from the forum</div>
+					<center><a href="https://www.vlemon.info" target="_blank" title="Lineage 2 Forum"><img src="https://www.vlemon.info/button.gif" alt="Lineage 2 Forum" /></a></center>
                     {forum}
                 </div>
                 <div class="top-player">
-                    <div class="bar-title clearfix">Топ 10 игроков</div>
-					<center><a href="https://www.vlemon.info/l2top/" target="_blank" title="Рейтинг серверов Lineage 2"><img src="https://www.vlemon.info/l2button.gif" alt="Рейтинг серверов Lineage 2" /></a></center>
+                    <div class="bar-title clearfix">Top 10 Players</div>
+					<center><a href="https://www.vlemon.info/l2top/" target="_blank" title="Rating servers Lineage 2"><img src="https://www.vlemon.info/l2button.gif" alt="Rating servers Lineage 2" /></a></center>
                     {pvptop}
                 </div>
             </article>
@@ -86,16 +86,16 @@
         <article class="inner-box list_carousel">
             <ul id="foo2">
                 <li>
-                    <h4>АБСОЛЮТНО НОВЫЙ ВЗГЛЯД НА LINEAGE 2</h4>
-                    <p>УНИКАЛЬАЯ КОНЦЕПНЦИЯ СЕРВЕРА, КАЧЕСТВЕННАЯ СБОРКА, КРУГЛОСУТОЧНАЯ ТЕХНИЧЕСКАЯ ПОДДЕРЖКА ИГРОКОВ!</p>
+                    <h4>ABSOLUTELY NEW VIEW ON LINEAGE 2</h4>
+                    <p>UNIQUE SERVER CONCEPT, QUALITY ASSEMBLY, 24-HOUR TECHNICAL SUPPORT FOR PLAYERS!</p>
                 </li>
                 <li>
-                    <h4>АБСОЛЮТНО НОВЫЙ ВЗГЛЯД НА LINEAGE 2</h4>
-                    <p>УНИКАЛЬАЯ КОНЦЕПНЦИЯ СЕРВЕРА, КАЧЕСТВЕННАЯ СБОРКА, КРУГЛОСУТОЧНАЯ ТЕХНИЧЕСКАЯ ПОДДЕРЖКА ИГРОКОВ!</p>
+                    <h4>ABSOLUTELY NEW VIEW ON LINEAGE 2</h4>
+                    <p>UNIQUE SERVER CONCEPT, QUALITY ASSEMBLY, 24-HOUR TECHNICAL SUPPORT FOR PLAYERS!</p>
                 </li>
                 <li>
-                    <h4>АБСОЛЮТНО НОВЫЙ ВЗГЛЯД НА LINEAGE 2</h4>
-                    <p>УНИКАЛЬАЯ КОНЦЕПНЦИЯ СЕРВЕРА, КАЧЕСТВЕННАЯ СБОРКА, КРУГЛОСУТОЧНАЯ ТЕХНИЧЕСКАЯ ПОДДЕРЖКА ИГРОКОВ!</p>
+                    <h4>ABSOLUTELY NEW VIEW ON LINEAGE 2</h4>
+                    <p>UNIQUE SERVER CONCEPT, QUALITY ASSEMBLY, 24-HOUR TECHNICAL SUPPORT FOR PLAYERS!</p>
                 </li>
             </ul>
             <a id="prev2" class="prev" href="#">&lt;</a>
@@ -108,11 +108,11 @@
         <div class="inner-box cop">
             <div class="copyright">
                 © 2015 YouSyte - Lineage II Gracia Epilogue
-                ДАННЫЙ СЕРВЕР ЯВЛЯЕТСЯ ТЕСТОВЫМ ВАРИАНТОМ ИГРЫ LINEAGE II И ПРЕДНАЗНАЧЕН ТОЛЬКО
-                ДЛЯ ОЗНАКОМЛЕНИЯ ИГРОКОВ. ВСЕ ПРАВА ПРИНАДЛЕЖАТ КОМПАНИИ NCSOFT
+                THIS SERVER IS A TEST VARIANT OF THE LINEAGE II GAME AND IS INTENDED ONLY
+                FOR ACQUAINTING PLAYERS. ALL RIGHTS BELONG TO NCSOFT
             </div>
             <div class="pay">
-                <h4>Способ оплаты:</h4>
+                <h4>Payment method:</h4>
                 <div class="icon"></div>
             </div>
         </div>

@@ -1,12 +1,13 @@
 [stage1]
-<div style="text-align: justify;"><p align="center"><b>Пожертвование - Шаг 1</b></p>
-Вы ничего не покупаете и мы ничего не продаем. Вы помогаете серверу в той мере, в какой сервер может помочь вам. Обмен признается равнозначным и считается благотворительностью. Потому никаких претензий относительно сохранности, качества, гарантий мы не принимаем. Никаких гарантий мы не даем. Если вы НЕ согласны с вышеизложенным - немедленно покиньте данную страницу.<br><br>
+<div style="text-align: justify;"><p align="center"><b>Donation - Step 1</b></p>
+
+You are not buying anything and we are not selling anything. You help the server to the extent that the server can help you. The exchange is recognized as equivalent and is considered charity. Therefore, we do not accept any claims regarding safety, quality, guarantees. We do not give any guarantees. If you do not agree with the above, leave this page immediately.<br><br>
 </div>
 
 <h2><a href="http://www.roboxchange.com/" target="_blank"><img id="robo" name="robo" src="{url}/sysimg/robokassa.jpg" alt="ROBOX"></a></h2><br>
 [server]
 <fieldset>
-	<legend><b>Оформление заказа - Сервер</b></legend>
+	<legend><b>Checkout - Server</b></legend>
 	<script type="text/javascript">
 	$(document).ready(function(){
 		if($('#rbchar').val()==null){
@@ -25,7 +26,7 @@
 	</script>
 	<table border="0" cellpadding="6" width="100%">
 	<tr>
-		<td  align="left" width="30%">Выберите сервер:</td>
+		<td  align="left" width="30%">Choose server:</td>
 		<td align="left" width="420" height="30">
 			<form action="{action_sid}" method="GET" id="swpaysid" name="sid">
 			<input type="hidden" name="f" value="cp" id="rbf" />
@@ -38,15 +39,15 @@
 </fieldset>
 [/server]
 [noChar]
-<div class="error">У Вас нету персонажей на этом сервере или они находятся в игре</div>
+<div class="error">You do not have characters on this server or they are in the game.</div>
 [/noChar]
 [isChar]
 <form action="{action}" method="post">
 <fieldset>
-	<legend><b>Оформление заказа - Персонаж</b></legend>
+	<legend><b>Checkout - Character</b></legend>
 	<table border="0" cellpadding="6" width="100%">
 	<tr>
-		<td align="left" width="30%">Имя персонажа:</td>
+		<td align="left" width="30%">Character `s name:</td>
 		<td align="left" height="30" width="420">
 			<select name="char" style="width: 160px" id="rbchar">
 				{charOptions}
@@ -56,7 +57,7 @@
 	</table>
 </fieldset>
 <input type="hidden" name="rnd" value="{rnd}" />
-<p align="right"><input value="Продолжить" name="bill" type="submit"></p>
+<p align="right"><input value="Continue" name="bill" type="submit"></p>
 </form>
 [/isChar]
 [/stage1]
@@ -105,9 +106,9 @@ $(document).ready(function(){
 
 });
 </script>
-<div style="text-align: justify;"><p align="center"><b>Пожертвование - Шаг 2</b></p></div>
+<div style="text-align: justify;"><p align="center"><b>Donation - Step 2b></p></div>
 <fieldset>
-	<legend><b>Оформление заказа</b></legend>
+	<legend><b>Checkout</b></legend>
 	<table border="0" cellpadding="6" width="100%">
 	<tr>
 		<td align="left" width="30%">Кол-во {itemName}:</td>   
@@ -122,12 +123,12 @@ $(document).ready(function(){
 </fieldset>
 <form id="roboks" method="post" name="roboks"  action="http://test.robokassa.ru/Index.aspx">
 <fieldset>
-	<legend><b>Информация о заказе</b></legend>
+	<legend><b>Information about order</b></legend>
 	<table border="0" cellpadding="6" width="100%">
 	<tbody>
 	<tr>
-		<td align="left" width="30%">Данные заказа:</td>
-		<td align="left" width="70%"><span id="rbtext" class="out">Сервер: <b>{serverName}</b> Персонаж: <b>{charName}</b> Заказ №</span><b><span id="ordernum">{order}</span></b></td>
+		<td align="left" width="30%">Order data:</td>
+		<td align="left" width="70%"><span id="rbtext" class="out">Server: <b>{serverName}</b> Character: <b>{charName}</b> Order №</span><b><span id="ordernum">{order}</span></b></td>
 	</tr>
 	<tr>
 		<td align="left" width="30%">Сумма :</td>
@@ -144,8 +145,8 @@ $(document).ready(function(){
 <input type="hidden" name="IncCurrLabel" id="IncCurrLabel" value="{valuta}" />
 <input type="hidden" name="shpa" id="shpa" value="{shpa}" />
 <input type="hidden" name="shpb" id="shpb" value="{shpb}" />
-	<p align="center" style="color: red;"><b>Сумма при оплате может незначительно отличаться из-за разницы в курсах</b></p>
+	<p align="center" style="color: red;"><b>The amount of payment may vary slightly due to the difference in rates</b></p>
 </fieldset>
-	<p align="right"><input value="Пожертвовать" name="bonus" id="bonus" type="submit"></p>
+	<p align="right"><input value="To donate" name="bonus" id="bonus" type="submit"></p>
 </form>
 [/stage2]
