@@ -8,7 +8,7 @@
 			{news}
 			<div class="params">
 				<span><img src="{template}/images/clocks.png" alt="clocks"><time>{date}</time></span>
-				[forum-link]<a href="{flink}" target="_blank" class="btn btn-default btn-more" role="button">Читать полностью</a>[/forum-link]
+				[forum-link]<a href="{flink}" target="_blank" class="btn btn-default btn-more" role="button">READ COMPLETELY</a>[/forum-link]
 			</div>
 		</div>
 	</div>

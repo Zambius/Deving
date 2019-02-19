@@ -1,16 +1,16 @@
 [logged]
 <div id="cp">
-Привет, <b>{user}</b><br />
-<a href="{uCHARS}">Аккаунт</a><br />
-<a href="{uCHPASS}">Сменить пароль</a><br />
-<a href="{uCHMAIL}">Сменить E-mail</a><br />
-<a href="{uSUPPORT}">Поддержка</a><br />
-<a href="{uROBO}">Пожертвования</a><br />
-<a href="{uCHSEX}">Смена пола</a><br />
-<a href="{uCHNAME}">Смена ника</a><br />
-<a href="{uCHANGER}">Обменник</a><br />
-<a href="{uREFERAL}">Пригласи друга</a><br />
-<a href="{url}/index.php?doExit=yes">Завершить сеанс</a>
+HELLO, <b>{user}</b><br />
+<a href="{uCHARS}">ACCOUNT</a><br />
+<a href="{uCHPASS}">CHANGE PASSWORD</a><br />
+<a href="{uCHMAIL}">CHANGE EMAIL</a><br />
+<a href="{uSUPPORT}">SUPPORT</a><br />
+<a href="{uROBO}">DONATE</a><br />
+<a href="{uCHSEX}">CHANGE SEX</a><br />
+<a href="{uCHNAME}">CHANGE NAME</a><br />
+<a href="{uCHANGER}">EXCHANGER</a><br />
+<a href="{uREFERAL}">INVITE A FRIEND</a><br />
+<a href="{url}/index.php?doExit=yes">LOG OFF</a>
 </div>
 [/logged]
 [login]
@@ -20,16 +20,16 @@
 <input type="submit" style="display:none">
 <table width="170" cellpadding="0" cellspacing="0">
 <tr>
-	<td width="70" height="25" valign="top" align="left">Логин:</td>
+	<td width="70" height="25" valign="top" align="left">LOGIN:</td>
 	<td width="100" valign="top"><input type="text" name="sw_name" style="width: 100px;" maxlength="16"></td>
 </tr>
 <tr>
-	<td height="25" valign="top" align="left">Пароль:</td>
+	<td height="25" valign="top" align="left">PASSWORD:</td>
 	<td valign="top"><input type="password" name="sw_pass" style="width: 100px;" maxlength="16"></td>
 </tr>
 [servers]
 <tr>
-	<td height="25" valign="top" align="left">Сервер:</td>
+	<td height="25" valign="top" align="left">SERVER:</td>
 	<td valign="top">{servers}</td>
 </tr>
 [/servers]
@@ -47,7 +47,7 @@
 [/recaptcha]
 <tr>
 	<td colspan="2" align="center">
-		<a href="{uFORGET}">Забыли пароль?</a> &nbsp; <a href="/" onclick="javascript: document.dologin.submit(); return false;">Войти</a>		
+		<a href="{uFORGET}">FORGOT YOUR PASSWORD</a> &nbsp; <a href="/" onclick="javascript: document.dologin.submit(); return false;">CONNECT</a>		
 	</td>
 </tr>
 </table>

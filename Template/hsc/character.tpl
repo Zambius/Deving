@@ -3,7 +3,7 @@
 <center>
 <table id="l2char" width="100%" border="0" cellpadding="1" cellspacing="1">
 <tr>
-	<th colspan="9">Просмотр персонажа <b>{charname}</b> ({level} lvl.)</th>
+	<th colspan="9">VIEW CHARACTER <b>{charname}</b> ({level} lvl.)</th>
 </tr>
 <tr>
 	<th width="72px" rowspan="4" class="char">
@@ -12,7 +12,7 @@
 	<th width="45px">CP
 	<th width="45px">HP
 	<th width="45px">MP
-	<th width="45px">Karma
+	<th width="45px">KARMA
 	<th width="90px" colspan="2">Exp
 	<th width="90px" colspan="2">SP
 </tr>
@@ -25,7 +25,7 @@
 	<td colspan="2">{sp}</td>
 </tr>
 <tr>
-	<th width="40px">PvP
+	<th width="40px">PVP
 	<th width="40px">PK	
 	<th width="40px">STR
 	<th width="40px">DEX

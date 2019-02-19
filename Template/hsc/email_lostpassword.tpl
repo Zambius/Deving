@@ -1,13 +1,13 @@
-Уважаемый {login},<br>
-Вы воспользовались функцией 'восстановления пароля' для Вашей учетной записи. Для того, чтобы активировать новый пароль проследуйте по ссылке:<br>
+Hello {login},<br>
+You have used the 'password recovery' feature for your account. To activate a new password, follow the link:<br>
 {link} <br>
 <br>
 ------------------------------------------------<br>
-Ваш логин и новый пароль на сайте:<br>
+Your login and new password on the Website:<br>
 ------------------------------------------------<br>
-Логин: {login} <br>
-Пароль: {password} <br>
+Login: {login} <br>
+Password: {password} <br>
 
 <br>
-С Уважением,<br>
-Администрация сервера {host}
+best regards,<br>
+Admin {host}

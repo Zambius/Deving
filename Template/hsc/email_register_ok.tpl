@@ -1,16 +1,16 @@
-Уважаемый {login}, <br />
-Это письмо отправлено с сайта {host} <br />
+Hello {login}, <br />
+This email is sent from the site. {host} <br />
  <br />
-Вы получили это письмо, так как этот e-mail адрес был использован при регистрации на сайте. <br />
+You have received this email, as this e-mail address was used during registration on the site. <br />
  <br />
 ------------------------------------------------ <br />
-Ваш логин и пароль на сайте: <br />
+Your login and password on the Website: <br />
 ------------------------------------------------ <br />
  <br />
-Логин: {login} <br />
-Пароль: {password} <br />
+Login: {login} <br />
+Password: {password} <br />
  <br />
-Благодарим Вас за регистрацию. <br />
+Thank you for registering. <br />
  <br />
-С уважением, <br />
-Администрация {host} .
+best regards, <br />
+Admin {host} .

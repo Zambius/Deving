@@ -6,8 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 	<title>{title}</title>
-	<meta name="Description" content="stress, lineage2, la2, stressweb.ru">
-	<meta name="Keywords" content="stress, lineage2, la2, stressweb.ru">
+	<meta name="Description" content="hellspawnclan, lineage2, hsc, l2, private, server">
+	<meta name="Keywords" content="hellspawnclan, lineage2, hsc, l2, private, server">
 	<!-- Bootstrap -->
 	<link href="{template}/css/bootstrap.min.css" rel="stylesheet">
 	<link href="{template}/css/styles.css" rel="stylesheet">
@@ -37,29 +37,23 @@
   <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
-</head>
-<a href="http://l2design.ru" style="position: fixed; top: 0px; left: 0;"><img src="http://l2design.ru/banners/88x31.gif" title="Шаблоны Lineage 2" alt="Шаблоны Lineage 2"></a>
-<a href="https://vk.com/id296764622" id="vk-right" style="position: fixed; right: 0px; bottom: -5px;"><img src="{template}/images/vk.png" border="0" title="VK Group" alt="VK Group"></a> 
-
-  
+</head>  
   <body id="home">
 		<nav class="nav-main">
 			<ul class="list-unstyled main-menu">
-				<li class="active"><a href="/">главная<span class="sr-only">(current)</span></a></li>
-				<li><a href="/index.php?f=register">регистрация</a></li>
-				<li><a href="/index.php?f=files">файлы</a></li>
-				<li><a href="/index.php?f=about">о сервере</a></li>
-				<li><a href="/index.php?f=stat">статистика</a></li>
-				<li><a href="/index.php?f=support">администрация</a></li>
-				<li><a href="/index.php?f=l2top">бонус</a></li>
-				<li><a href="/index.php?f=waytopay">пожертвования</a></li>
-				<li><a href="/index.php?f=cp" class="btn"><img src="{template}/images/lock.png" class="i-lock"><span><b>АВТОРИЗОВАТЬСЯ</b><br/>Вход в личный кабинет</a></li>
+				<li class="active"><a href="/">HOME<span class="sr-only">(current)</span></a></li>
+				<li><a href="/index.php?f=register">REGISTER</a></li>
+				<li><a href="/index.php?f=files">DOWNLOADS</a></li>
+				<li><a href="/index.php?f=about">INFOS</a></li>
+				<li><a href="/index.php?f=stat">STATISTICS</a></li>
+				<li><a href="/index.php?f=support">SUPPORT</a></li>
+				<li><a href="/index.php?f=cp" class="btn"><img src="{template}/images/lock.png" class="i-lock"><span><b>AUTHORIZE</b><br/>LOGIN TO YOUR ACCOUNT</a></li>
 			</ul>
 		</nav>
     <header class="jumbotron">
     	<div class="container">
-    		<a href="#" id="nav-expander" class="nav-expander fixed">МЕНЮ</a>
-    		<button class="btn-primary start reg-popup"><img class="joystick" src="{template}/images/joystick.png"><span><b>Быстрый старт</b><br>Начните игру в пару кликов</span></button>
+    		<a href="#" id="nav-expander" class="nav-expander fixed">MENU</a>
+    		<button class="btn-primary start reg-popup"><img class="joystick" src="{template}/images/joystick.png"><span><b>FAST START</b><br>Start the game in a couple of clicks.</span></button>
     		<div class="row servers">
     			{server} 
     		</div>
@@ -73,18 +67,16 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse navi" id="bs-example-navbar-collapse-1">
 					  <ul class="nav navbar-nav">
-						<li class="active"><a href="/">главная<span class="sr-only">(current)</span></a></li>
-						<li><a href="/">форум</a></li>
-						<li><a href="/index.php?f=register">регистрация</a></li>
-						<li><a href="/index.php?f=files">файлы</a></li>
-						<li><a href="/index.php?f=about" role="button">о сервере</a></li>
-						<li><a href="/index.php?f=stat">статистика</a></li>
-						<li><a href="/index.php?f=support">администрация</a></li>
-						<li><a href="/index.php?f=l2top">бонус</a></li>
-						<li><a href="/index.php?f=waytopay">пожертвования</a></li>
+						<li class="active"><a href="/">HOME<span class="sr-only">(current)</span></a></li>
+						<li><a href="/">FORUM</a></li>
+						<li><a href="/index.php?f=register">REGISTER</a></li>
+						<li><a href="/index.php?f=files">DOWNLOADS</a></li>
+						<li><a href="/index.php?f=about" role="button">INFOS</a></li>
+						<li><a href="/index.php?f=stat">STATISTICS</a></li>
+						<li><a href="/index.php?f=support">SUPPORT</a></li>
 					  </ul>
 					  <ul class="nav navbar-nav navbar-right">
-						<li><a href="/index.php?f=cp" class="btn"><img src="{template}/images/lock.png" class="i-lock"><span><b>АВТОРИЗОВАТЬСЯ</b><br/>Вход в личный кабинет</a></li>
+						<li><a href="/index.php?f=cp" class="btn"><img src="{template}/images/lock.png" class="i-lock"><span><b>AUTHORIZE</b><br/>LOGIN TO YOUR ACCOUNT</a></li>
 					  </ul>
 					</div><!-- /.navbar-collapse -->
 				  </div>
@@ -96,11 +88,11 @@
 	<div class="jumbotron content">
 		<div class="container">
 				<div class="col-lg-8 logo">
-					{info}{content}																																																																																																																																																									<div style="display:none;">Множество шаблонов для игровых сайтов представлены в открытом доступе, хранящихся на яндекс диске, скачать их, как вы знаете можно бесплатно. Конечно больше всего предсталено шаблонов для Lineage 2 обвзязки Stress Web 13, заходите и скачивайте <a href="http://l2design.ru/stressweb/">бесплатные шаблоны для игровых сайтов</a>, которые мы собрали для вашего пользования и разрабатываемых проектов.</div>			<div style="display:none;">Что делать игроку, который за компьютером находиться длительное время и выйти покурить не всегда возможно, стоит обратить внимание на электронные сигареты. Выбрать современный бокс мод поможет сайт <a href="http://ecigtop.ru">рейтинг электронных сигарет</a>, батарейные моды, атомайзеры, баки, дрипки, все что нужно для электронного курения, выбрать будет очень легко. Настоящий рай для вейпера, играть за компьютером теперь можно без перерыва, так как парить можно прямо на месте.</div>	<div style="display:none;">Выбираем новый игровой сервер без проблем, сайт <a href="http://gamelider.ru">анонс игровых серверов</a> поможет вам в максимально быстро познакомить со всеми новыми серверами, Lineage 2, WoW, Perfect World, MU Online и другими. Заходи, выбирай новый игровой проект по важным характеристикам в удобном поиске по анонсу.</div>				<div style="display:none;">Когда бы не стал вопрос о выбори новой компьютерной игры, можно всегда найти актуальную информацию на сайте  <a href="http://darkrealm.su">лучшие онлайн игры</a>. Все новинки клиентских и браузерных онлайн игр представлены в удобном каталоге на сайте, отзывы реальных игроков помогут очень быстро посоветовать интересную игру.</div>			<div style="display:none;">Кому же не хочется играть на самом крутом сервере MineCraft? Но вот быстро найти его не всегда представляется возможным. Не нужно ходить по разным мониторингам, идите прямиком на <a href="http://topmcraft.ru">ТОП лучших серверов Майнкрафт</a>, в этом случае вы сэкономите кучу времени и быстро станите участником самого лучшего проекта MineCraft, который будет работать без читов и багов.</div>			<div style="display:none;">Для замужней девушки важно вкусно и полезно накормить свою семью, но порой на очередной ужин уже не хватает фантазии. Почему бы просто не вычитать новый кулинарный рецепт на сайте <a href="http://crazy-cookery.ru/">вкусные закуски</a> и не выдумывать свои шедевры. Представленные рецепты закусок всегда просты в приготовлении и имеют неповторимый вкус, который точно понравиться и взрослым и детям.</div>						<div style="display:none;">Все сервера Lineage 2 на одном сайте, который анонсирует все <a href="http://l2cat.ru">новые сервера Lineage 2</a> в одном каталоге, а пользователи сами определяют насколько хорош тот или иной L2 сервер, чем и делает наш анонс самым лучшим среди всех подобных анонсов.</div>																																																																																														
+					{info}{content}																																																																																														
 				</div>
 				<!-- Sidebar Top Players Start -->
 				<div class="col-lg-4 players">
-					<h2><img src="{template}/images/knives.png" alt="">РЕЙТИНГ ИГРОКОВ</h2>
+					<h2><img src="{template}/images/knives.png" alt="">PLAYERS RATING</h2>
 					<hr/>
 					<div class="players-stats sidebar-content" id="sortplayers">
 						{pvptop}
@@ -108,7 +100,7 @@
 						
 					</div>
 					<div class="filters">
-							<button class="btn btn-default btn-xs filter" data-filter=".PvP">PvP</button>
+							<button class="btn btn-default btn-xs filter" data-filter=".PvP">PVP</button>
 							<button class="btn btn-default btn-xs filter" data-filter=".PK">PK</button>
 							<!--<button class="btn btn-default btn-xs filter" data-filter="all">Общая</button>-->
 						</div>
@@ -116,10 +108,10 @@
 				<!-- Sidebar Top Players End -->
 				<!-- Sidebar Forum posts Start -->
 				<div class="col-lg-4 forumposts">
-					<h2><img src="{template}/images/letter.png" alt="">ПОСЛЕДНИЕ ТЕМЫ</h2>
+					<h2><img src="{template}/images/letter.png" alt="">LATEST TOPICS</h2>
 					<hr/>
 					{forum}
-					<a href="http://forum.la2-ares.pw"><button class="btn btn-default">Перейти на форум</button></a>
+					<a href="http://forum.la2-ares.pw"><button class="btn btn-default">GO TO FORUM</button></a>
 				</div>
 				<!-- Sidebar Forum posts End -->
 				<!-- Sidebar VK Start -->
@@ -133,31 +125,31 @@
 	<!-- Fast start Block Start -->
 	<div class="cd-popup start" role="alert">
 		<div class="cd-popup-container">
-			<h4>Файлы для игры</h4>
+			<h4>FILES FOR THE GAME</h4>
 			<hr/ class="bl">
 			<div class="row">
 				<div class="col-lg-12">
-					<h5><img src="{template}/images/ico-files1.png">1. СКАЧАЙ И УСТАНОВИ ИГРУ</h2>
-					<p>Для игры на серверах la2-ares.pw тебе необходим клиент игры Lineage II Interlude.</p>
-					<a href="http://rutracker.org/forum/viewtopic.php?t=3820599" target="_blank" class="btn btn-default btn-lg btn-patch">скачать клиент</a>
-					<a href="http://www.utorrent.com/intl/ru/downloads/complete/os/win/track/stable" class="torrent"><img src="{template}/images/ico-torrent.png">Скачать торрент-клиент (если его нет)</a>
+					<h5><img src="{template}/images/ico-files1.png">1. DOWNLOAD AND INSTALL GAME</h2>
+					<p>To play on the servers Hellspawnclan.com, you need the client of the game Lineage II Hight Five.</p>
+					<a href="http://rutracker.org/forum/viewtopic.php?t=3820599" target="_blank" class="btn btn-default btn-lg btn-patch">DOWNLOAD CLIENT</a>
+					<a href="http://www.utorrent.com/intl/ru/downloads/complete/os/win/track/stable" class="torrent"><img src="{template}/images/ico-torrent.png">DOWNLOAD CLIENT TORRENT</a>
 					<hr/>
 				</div>
 				<div class="col-lg-12">
-					<h5><img src="{template}/images/ico-files2.png">2. УСТАНОВИ ПАТЧ</h2>
-					<p>Также следует установить наш патч или запустить полную проверку файлов (апдейтер).</p>
-					<p><b>Патч распакуй в корневую папку игры. Клиент запускай через l2.exe.</b></p>
-					<a href="/La2-Ares.PW_Patch_V9.7z" target="_blank" class="btn btn-default btn-lg btn-patch">скачать патч</a>
-					<a href="https://cloud.mail.ru/public/ut3Y/EnEVceiMh" target="_blank" class="btn btn-default btn-lg btn-mirror">зеркало</a>
+					<h5><img src="{template}/images/ico-files2.png">2. INSTALL PATCH</h2>
+					<p>You should also install our patch or run a full scan of files (update).</p>
+					<p><b>Patch unpack to the root folder of the game. Client run through l2.exe.</b></p>
+					<a href="/La2-Ares.PW_Patch_V9.7z" target="_blank" class="btn btn-default btn-lg btn-patch">DOWNLOAD PATCH</a>
+					<a href="https://cloud.mail.ru/public/ut3Y/EnEVceiMh" target="_blank" class="btn btn-default btn-lg btn-mirror">MIRROR</a>
 					<hr/>
 				</div>
 				<div class="col-lg-12">
-					<h5><img src="{template}/images/ico-user.png">3. ЗАРЕГИСТРИРУЙ АККАУНТ</h2>
-					<p>Осталось лишь зарегистрировать аккаунт.</p>
-					<a href="/index.php?f=register" class="btn btn-default btn-lg btn-patch">СОЗДАТЬ АККАУНТ</a>
+					<h5><img src="{template}/images/ico-user.png">3. REGISTER ACCOUNT</h2>
+					<p>It remains only to register an account.</p>
+					<a href="/index.php?f=register" class="btn btn-default btn-lg btn-patch">CREATE AN ACCOUNT</a>
 				</div>
 			</div>
-			<a href="#0" class="cd-popup-close img-replace">Close</a>
+			<a href="#0" class="cd-popup-close img-replace">CLOSE</a>
 		</div> 
 	</div>
 	<!-- Fast start Block End -->
@@ -165,31 +157,24 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3">
-					<h5>Игровой проект La2-Ares.PW</h5>
-					<p>ДАННЫЙ СЕРВЕР ЯВЛЯЕТСЯ ТЕСТОВЫМ ВАРИАНТОМ ИГРЫ LINEAGE II И ПРЕДНАЗНАЧЕН ТОЛЬКО ДЛЯ ОЗНАКОМЛЕНИЯ ИГРОКОВ. ВСЕ ПРАВА ПРИНАДЛЕЖАТ КОМПАНИИ NCSOFT. </p>
+					<h5>GAME PROJECT HELLSPAWNCLAN.COM</h5>
+					<p>THIS SERVER IS A VARIANT OF THE GAME LINEAGE II AND IS INTENDED ONLY FOR THE READING OF PLAYERS. ALL RIGHTS BELONG TO NCSOFT. </p>
 				</div>
 				<div class="col-lg-2">
-					<h5>Контакты</h5>
-					<p>Skype : <a href="skype:ares.donate?add">КЛИКНИ ЧТОБЫ ДОБАВИТЬ</a><br/>
-						VK : <a href="https://vk.com/id296764622">Never Again</a><br/>
+					<h5>CONTACTS</h5>
+					<p>MAIL : <a href="support@hellspawnclan.com">CLICK HERE</a><br/>
+						FORUM : <a href="https://hellspawnclan.com/forum">CLICK HERE</a><br/>
 						</p>
 				</div>
 				<div class="col-lg-2">
-						<h5>Лучший сервер с дополнениями</h5>
-						<p>© 2017 La2-Ares.PW - Lineage II Interlude<br/>
+						<h5>BEST SERVER WITH ADDONS</h5>
+						<p>© 2019 HellSpawnClan.com - Lineage II Hight Five<br/>
 						</p>
-				</div>
-				<div class="col-lg-3">
-					<h5>Способы оплаты:</h5>
-					<img src="{template}/images/payways.png" alt="">
 				</div>
 			</div>
 			<a href="#home" class="top"><img src="{template}/images/top.png" alt=""></a>
 		</div>
 	</footer>
-
-
-<a href="http://l2design.ru"><img src="http://l2design.ru/banners/88x31.gif" title="Шаблоны Lineage 2" alt="Шаблоны Lineage 2"></a>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     	

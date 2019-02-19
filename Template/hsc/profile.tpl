@@ -1,23 +1,23 @@
 [profile]
 <div align="center">
-<H3>~ Личный кабинет ~</H3>
+<H3>~ PERSONAL AREA ~</H3>
 <table width="90%" cellpadding="0" cellspacing="0" class="tabProfileMenu">
 <tr>
 	<td align="center" height="30">
-		<a href="index.php?doExit=yes"> <u>Завершить сеанс</u> </a>
+		<a href="index.php?doExit=yes"> <u>LOG OFF</u> </a>
 	</td>
 </tr>
 <tr>
 	<td align="center">
-		<a href="{uCHARS}">::Персонажи::</a>
-		<a href="{uCHPASS}">::Сменить пароль::</a>
-		<a href="{uCHMAIL}">::Сменить E-Mail::</a>
-		<a href="{uSUPPORT}">::Поддержка::</a>
-		<a href="{uROBO}">::Пожертвование::</a>
-		<a href="{uCHSEX}">::Смена пола::</a>
-		<a href="{uCHNAME}">::Смена ника::</a>
-		<a href="{uCHANGER}">::Обменник::</a>
-		<a href="{uREFERAL}">::Пригласи друга::</a>
+		<a href="{uCHARS}">::CHARACTER::</a>
+		<a href="{uCHPASS}">::CHANGE PASSWORD::</a>
+		<a href="{uCHMAIL}">::CHANGE EMAIL::</a>
+		<a href="{uSUPPORT}">::SUPPORT::</a>
+		<a href="{uROBO}">::DONATE::</a>
+		<a href="{uCHSEX}">::CHANGE SEX::</a>
+		<a href="{uCHNAME}">::CHANGE NAME::</a>
+		<a href="{uCHANGER}">::EXCHANGER::</a>
+		<a href="{uREFERAL}">::INVITE A FRIEND::</a>
 	</td>
 </tr>
 </table>
@@ -30,20 +30,20 @@
 <input type="hidden" value="1" name="doLogin">
 <table width="165" cellpadding="0" cellspacing="0" id="account">
 <tr>
-	<td colspan="2" class="title" height="30">Вход в кабинет</td>
+	<td colspan="2" class="title" height="30">LOGIN TO THE OFFICE</td>
 </tr>
 [servers]
 <tr>
-	<td width="65" height="25" valign="top" align="left">Сервер:</td>
+	<td width="65" height="25" valign="top" align="left">SERVER:</td>
 	<td width="100" valign="top">{servers}</td>
 </tr>
 [/servers]
 <tr>
-	<td width="65" height="25" valign="top" align="left">Логин:</td>
+	<td width="65" height="25" valign="top" align="left">LOGIN:</td>
 	<td width="100" valign="top"><input type="text" name="sw_name" style="width: 80px;" maxlength="16"></td>
 </tr>
 <tr>
-	<td width="65" height="25" valign="top" align="left">Пароль:</td>
+	<td width="65" height="25" valign="top" align="left">PASSWORD:</td>
 	<td width="100" valign="top"><input type="password" name="sw_pass" style="width: 80px;" maxlength="16"></td>
 </tr>
 [captcha]
@@ -59,7 +59,7 @@
 [/recaptcha]
 <tr>
 	<td colspan="2" align="center">
-		<a href="{uFORGET}">Забыли пароль?</a> &nbsp; <a href="/" onclick="javascript: document.do_login.submit(); return false;">Войти</a><br /><a href="{uREGISTER}">Регистрация</a>
+		<a href="{uFORGET}">FORGOT YOUR PASSWORD?</a> &nbsp; <a href="/" onclick="javascript: document.do_login.submit(); return false;">CONNECT</a><br /><a href="{uREGISTER}">REGISTER</a>
 	</td>
 </tr>
 </table>

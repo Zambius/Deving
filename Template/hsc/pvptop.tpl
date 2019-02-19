@@ -1,10 +1,10 @@
 [main]
-<!-- Модуль PvP Top -->
+<!-- MODULE TOP PVP -->
 <table class="table mix PvP">
 	<thead>
 		<tr>
-			<th>Игрок</th>
-			<th>PvP</th>
+			<th>PLAYER</th>
+			<th>PVP</th>
 		</tr>
 	</thead>
 	<tbody>

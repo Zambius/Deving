@@ -1,9 +1,9 @@
 [main]
-<!-- Модуль PvP Top -->
+<!-- MODULE PK TOP -->
 <table class="table mix PK">
 	<thead>
 		<tr>
-			<th>Игрок</th>
+			<th>PLAYER</th>
 			<th>PK</th>
 		</tr>
 	</thead>

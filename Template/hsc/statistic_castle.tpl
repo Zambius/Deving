@@ -2,47 +2,102 @@
 <table id='l2castle' cellpadding="0" cellspacing="0">
 <tr>
     <td class='l2left'>
+	<img border="0" width="164px" height="123px" src="{template}/images/castles/1.jpg">
+    </td>
+    <td class='l2right'>
+	<strong>GLUDIO CASTLE</strong><br>
+	<small>TAX: {gludioTax}%, {gludioSiegeDate}</small><br><br>
+	OWNER: <b>{gludioOwner}</b><br><br>
+	DEFENDERS: {gludioDefenders}<br>
+	ATTACKERS: {gludioAttackers}
+    </td>
+<tr>
+    <td class='l2left'>
+	<img border="0" width="164px" height="123px" src="{template}/images/castles/2.jpg">
+    </td>
+    <td class='l2right'>
+	<strong>DION CASTLE</strong><br>
+	<small>TAX: {dionTax}%, {dionSiegeDate}</small><br><br>
+	OWNER: <b>{dionOwner}</b><br><br>
+	DEFENDERS: {dionDefenders}<br>
+	ATTACKERS: {dionAttackers}
+    </td>
+<tr>
+    <td class='l2left'>
 	<img border="0" width="164px" height="123px" src="{template}/images/castles/3.jpg">
     </td>
     <td class='l2right'>
-	<strong>Giran Castle</strong><br>
-	<small>Налог: {giranTax}%, {giranSiegeDate}</small><br><br>
-	Владелец: <b>{giranOwner}</b><br><br>
-	Защитники: {giranDefenders}<br>
-	Атакующие: {giranAttackers}
+	<strong>GIRAN CASTLE</strong><br>
+	<small>TAX: {giranTax}%, {giranSiegeDate}</small><br><br>
+	OWNER: <b>{giranOwner}</b><br><br>
+	DEFENDERS: {giranDefenders}<br>
+	ATTACKERS: {giranAttackers}
+    </td>
+<tr>
+    <td class='l2left'>
+	<img border="0" width="164px" height="123px" src="{template}/images/castles/4.jpg">
+    </td>
+    <td class='l2right'>
+	<strong>OREN CASTLE</strong><br>
+	<small>TAX: {orenTax}%, {orenSiegeDate}</small><br><br>
+	OWNER: <b>{orenOwner}</b><br><br>
+	DEFENDERS: {orenDefenders}<br>
+	ATTACKERS: {orenAttackers}
     </td>
 <tr>
     <td class='l2left'>
 	<img border="0" width="164px" height="123px" src="{template}/images/castles/5.jpg">
     </td>
     <td class='l2right'>
-	<strong>Aden Castle</strong><br>
-	<small>Налог: {adenTax}%, {adenSiegeDate}</small><br><br>
-	Владелец: <b>{adenOwner}</b><br><br>
-	Защитники: {adenDefenders}<br>
-	Атакующие: {adenAttackers}
+	<strong>ADEN CASTLE</strong><br>
+	<small>TAX: {adenTax}%, {adenSiegeDate}</small><br><br>
+	OWNER: <b>{adenOwner}</b><br><br>
+	DEFENDERS: {adenDefenders}<br>
+	ATTACKERS: {adenAttackers}
+    </td>
+<tr>
+    <td class='l2left'>
+	<img border="0" width="164px" height="123px" src="{template}/images/castles/6.jpg">
+    </td>
+    <td class='l2right'>
+	<strong>INNADRIL CASTLE</strong><br>
+	<small>TAX: {innadrilTax}%, {innadrilSiegeDate}</small><br><br>
+	OWNER: <b>{innadrilOwner}</b><br><br>
+	DEFENDERS: {innadrilDefenders}<br>
+	ATTACKERS: {innadrilAttackers}
     </td>
 <tr>
     <td class='l2left'>
 	<img border="0" width="164px" height="123px" src="{template}/images/castles/7.jpg">
     </td>
     <td class='l2right'>
-	<strong>Goddard Castle</strong><br>
-	<small>Налог: {goddardTax}%, {goddardSiegeDate}</small><br><br>
-	Владелец: <b>{goddardOwner}</b><br><br>
-	Защитники: {goddardDefenders}<br>
-	Атакующие: {goddardAttackers}
+	<strong>GODDARD CASTLE</strong><br>
+	<small>TAX: {goddardTax}%, {goddardSiegeDate}</small><br><br>
+	OWNER: <b>{goddardOwner}</b><br><br>
+	DEFENDERS: {goddardDefenders}<br>
+	ATTACKERS: {goddardAttackers}
     </td>
 <tr>
     <td class='l2left'>
 	<img border="0" width="164px" height="123px" src="{template}/images/castles/8.jpg">
     </td>
     <td class='l2right'>
-	<strong>Rune Castle</strong><br>
-	<small>Налог: {runeTax}%, {runeSiegeDate}</small><br><br>
-	Владелец: <b>{runeOwner}</b><br><br>
-	Защитники: {runeDefenders}<br>
-	Атакующие: {runeAttackers}
+	<strong>RUNE CASTLE</strong><br>
+	<small>TAX: {runeTax}%, {runeSiegeDate}</small><br><br>
+	OWNER: <b>{runeOwner}</b><br><br>
+	DEFENDERS: {runeDefenders}<br>
+	ATTACKERS: {runeAttackers}
+    </td>
+<tr>
+    <td class='l2left'>
+	<img border="0" width="164px" height="123px" src="{template}/images/castles/9.jpg">
+    </td>
+    <td class='l2right'>
+	<strong>SCHUTTGART CASTLE</strong><br>
+	<small>TAX: {schuttgartTax}%, {schuttgartSiegeDate}</small><br><br>
+	OWNER: <b>{schuttgartOwner}</b><br><br>
+	DEFENDERS: {schuttgartDefenders}<br>
+	ATTACKERS: {schuttgartAttackers}
     </td>
 </table>
 </center>

@@ -1,20 +1,20 @@
 <form name="form" method="post" action="">
 <table cellpadding="0" cellspacing="0" class="repassForm">
 <tr>
-	<td colspan="2" align="center"><p>Восстановление пароля</p></td>
+	<td colspan="2" align="center"><p>PASSWORD RECOVERY</p></td>
 </tr>
 [servers]
 <tr>
-	<td class="tdLeft">Сервер:</td>
+	<td class="tdLeft">SERVER:</td>
   	<td class="tdRight"><select style="width: 100%;" name="sid">{servers}</select></td>
 </tr>
 [/servers]
 <tr>
-	<td class="tdLeft">Логин:</td>
+	<td class="tdLeft">LOGIN:</td>
   	<td class="tdRight"><input type="text" name="login" maxlength="14" class="input"></td>
 </tr>
 <tr>
-	<td class="tdLeft">E-Mail:</td>
+	<td class="tdLeft">EMAIL:</td>
   	<td class="tdRight"><input type="text" name="email" maxlength="50" class="input"></td>
 </tr>
 [captcha]
@@ -30,7 +30,7 @@
 [/recaptcha]
 <tr>
   	<td colspan="2" style="text-align: center;">
-	  <input type="submit" name="repass"  value="Отправить" class="repassbutton" />
+	  <input type="submit" name="repass"  value="SEND" class="repassbutton" />
 	</td>
 </tr>
 </table>

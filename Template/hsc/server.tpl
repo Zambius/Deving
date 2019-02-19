@@ -1,17 +1,17 @@
 [main]
-<!— Модуль Статус Серверов —>
+<!— MODULE SERVER STATUS —>
 {item}
 [/main]
 
 [item]
 
 		<div id="progressbar-first" class="progressbar">
-			<span class="online" id="online1">Soon...</span>
-			<p class="progressbar-text"><span>X50k</span> Interlude Mega PvP</p>
+			<span class="online" id="online1">OFFLINE</span>
+			<p class="progressbar-text"><span>X7</span> H5-SERVER</p>
 		</div>
 		<div id="progressbar-second" class="progressbar">
-			<span class="online" id="online2">Soon...</span>
-			<p class="progressbar-text"><span>X1200</span> Interlude PvP</p>
+			<span class="online" id="online2">OFFLINE</span>
+			<p class="progressbar-text"><span>TEST</span> H5-SERVER</p>
 		</div>
 <script type="text/javascript">
 $(function() {
